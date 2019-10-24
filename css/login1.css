@@ -1,0 +1,101 @@
+body{
+    background: url(../images/fon.jpg) ;
+    margin:0 ;
+    width: 100%;
+    position: fixed;
+}
+
+.header{
+    min-width: 1200px;
+    width: 100%;
+    min-height: 90px;
+    margin: auto;
+    position: relative;
+    padding: 0 0 0 0;
+   /* IE10+ */ 
+background-image: -ms-linear-gradient(left, #000000 0%, rgb(59, 59, 59) 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(left, #000000 0%, rgb(59, 59, 59) 100%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(left, #000000 0%, rgb(59, 59, 59) 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #000000), color-stop(100,  rgb(59, 59, 59)));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(left,  #000000 0%, rgb(59, 59, 59) 100%);
+
+/* W3C Markup */ 
+background-image: linear-gradient(to right,  #000000 0%,rgb(59, 59, 59) 100%);
+}
+
+.container{
+    min-width: 80%;
+    height: 90px;
+    margin: auto;
+}
+.logo{
+
+    width: 200px;
+    padding: 4px 0 0 40px;
+    float: left;
+}
+.maincont{
+    width: 80%;
+    min-width: 800px;
+    background-color:rgba(0, 0, 0, 0.7);
+    min-height:900px;
+    margin: auto;
+    padding-top: 50px;
+}
+.loginText{
+    color: rgba(72, 75, 74, 0.7);
+   
+
+}
+.loginText1{
+    color: rgba(7, 245, 165, 0.7);
+   
+
+}
+.logEnt{
+    border-radius: 15px;
+    max-width: 500px;
+    margin: auto;
+    transition-property: background;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    padding: 10px 10px 10px 10px;
+    position: relative;
+    top:50%;
+}
+.logEnt:hover{
+    background: rgb(60, 216, 138);
+}
+.footer{
+    position: bottom;
+    min-width: 1200px;
+    width: 100%;
+    min-height: 79px;
+    margin: auto;
+    padding: 0 0 0 0;
+   /* IE10+ */ 
+background-image: -ms-linear-gradient(left, #000000 0%, rgb(59, 59, 59) 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(left, #000000 0%, rgb(59, 59, 59) 100%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(left, #000000 0%, rgb(59, 59, 59) 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #000000), color-stop(100,  rgb(59, 59, 59)));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(left,  #000000 0%, rgb(59, 59, 59) 100%);
+
+/* W3C Markup */ 
+background-image: linear-gradient(to right,  #000000 0%,rgb(59, 59, 59) 100%); 
+}

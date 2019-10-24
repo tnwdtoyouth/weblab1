@@ -1,0 +1,32 @@
+.mainmenu {
+    /* задать высоту и цвет подложки меню*/
+    width: 70%;
+    margin: auto;
+    padding: 40px 0 0 0;
+        height: 60px;
+        position: relative;
+    }
+    
+    ul.menu {text-align: right;}
+    ul.menu li {
+        display: inline-block;
+        margin:  auto;
+        position: relative;
+    }
+    ul.menu li a {
+    /*задать параметры шрифта для пункта меню (обычные)*/
+        font-size: 16;
+        text-transform: uppercase;
+        color: #ffffff;
+        font-family: 'opensans-extrabold';
+        font-weight: extrabold;   
+        display: block;
+        padding:  0 35px;
+    }
+    ul.menu li a:hover,
+    ul.menu li.active a  {
+    /*задать параметры шрифта для пункта меню (по наведению)*/
+        color: #3b3b3b;
+        
+        
+    }

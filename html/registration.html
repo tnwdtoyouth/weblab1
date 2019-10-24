@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/login1.css">
+    <link rel="stylesheet" href="../css/menushka.css">
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+        <div class="logo">
+            <img src="../img/logo.png" height="80px">
+        </div>
+        <div class="mainmenu">
+            <ul class="menu js_menu">
+                <li>
+                    <a class=" text-light nav-link" href="homepage.php">Home</a>
+                </li>
+                <li>
+                    <a class="nav-link text-light" href="Table.php">Users Table</a>
+                </li>
+                <li >
+                    <a class="nav-link text-light" href="MyPage.php">My page</a>
+                </li>
+    
+            </ul>
+        </div>
+        
+     </div>
+    </div>
+    <div class="maincont">
+            <div class="logEnt text-center ">
+    <p class="display-4 loginText">Registration form</p>
+    <form action="../php/check.php" method="post" >
+        <input type="email" class="form-control" required="required" name="email" id="email"
+               placeholder="Enter email"><br>
+        <input type="text" class="form-control" required="required" name="firstname" id="firstname"
+               placeholder="Enter firstname"><br>
+        <input type="text" class="form-control" required="required" name="lastname" id="lastname"
+               placeholder="Enter lastname"><br>
+        <select name="taskOption" class="form-control">
+            <option value="1">User</option>
+            <option value="2">Admin</option>
+        </select><br>
+        <input type="password" class="form-control" name="pass" id="pass"
+               placeholder="Enter password"><br>
+        <button class="btn btn-dark" type="submit">REGISTRATION</button>
+    </form>
+</div>
+</div>
+</body>
+</html>
